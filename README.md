@@ -1,8 +1,13 @@
 # Luafuck
 Rewrite Lua scripts with 12 characters. Charset: `[]()#._Gchar`  
 
+<<<<<<< HEAD
 ## Quick-Start
 1. Clone
+=======
+## Quick-Start             
+1. Clonebbbbbbbbbbbbbbbbb
+>>>>>>> cc8cb52... More local code, now it compiles.
 2. Open `Luafuck.sln` in Visual Studio 2022 (Preview)
 3. Compile (`ctrl+b`)
 4. Run `Luafuck.exe <lua_script_path>` from either 'Debug' or 'Release' dir (based on compilation profile)
@@ -30,8 +35,12 @@ Rewrite Lua scripts with 12 characters. Charset: `[]()#._Gchar`
 \* Anywhere a string is showing in the examples assume it was constructed by getting individuals chars then concatinating the charaters together.
 
 ## Resulting script
+<<<<<<< main
 When transforming a Lua script to Luafuck using this project you'll always get a new script with the following structure:  
 (Assuming Lua version <= 5.1. Otherwise replace with 'load' calls)
+=======
+When transforming a Lua script to Luafuck using this project you'll always get a new script with the following structure:
+>>>>>>> Update README.md
 ```
 loadstring(helper_1)()
 loadstring(helper_2)()
